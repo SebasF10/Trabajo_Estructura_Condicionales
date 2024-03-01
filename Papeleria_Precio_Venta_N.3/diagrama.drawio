@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e">
+    <diagram id="6bCv-ZAx-BGe-SAOABXR" name="Página-1">
+        <mxGraphModel dx="832" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" value="FALSE" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="8" edge="1">
+                    <mxGeometry x="-0.7333" y="-10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="280" y="300"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="TRUE" style="edgeStyle=none;html=1;" parent="1" source="2" target="24" edge="1">
+                    <mxGeometry x="-0.7143" y="10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="600" y="300"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="PRECIO_COSTO&lt;br&gt;&amp;nbsp;&amp;lt; 3000" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="240" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="10" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="PRECIO_COSTO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="TRUE" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" edge="1">
+                    <mxGeometry x="-0.7714" y="10" relative="1" as="geometry">
+                        <mxPoint x="430" y="505" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="420"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="FALSE" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="27" edge="1">
+                    <mxGeometry x="-0.75" y="-10" relative="1" as="geometry">
+                        <mxPoint x="130" y="510" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="420"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="PRECIO_COSTO&lt;br&gt;&amp;nbsp;&amp;gt; 6000" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="360" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="600" y="480" as="sourcePoint"/>
+                        <mxPoint x="430" y="690" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="660"/>
+                            <mxPoint x="430" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="585" as="sourcePoint"/>
+                        <mxPoint x="430" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.458;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="134.96000000000004" y="581" as="sourcePoint"/>
+                        <mxPoint x="430" y="690" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="135" y="660"/>
+                            <mxPoint x="430" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="GANANCIA =&lt;br&gt;&amp;nbsp;0.15 * PRECIO_COSTO" style="whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="GANANCIA = 500" style="whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="505" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="GANANCIA =&lt;br&gt;0.25 * PRECIO_COSTO" style="whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="500" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" parent="1" source="28" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="PRECIO_VENTA =&lt;br&gt;GANANCIA + PRECIO_COSTO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="690" width="190" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;" parent="1" source="29" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="PRINT = &lt;br&gt;PRECIO_VENTA" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="790" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="900" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
