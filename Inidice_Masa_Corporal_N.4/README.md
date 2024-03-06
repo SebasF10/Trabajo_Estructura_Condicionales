@@ -1,4 +1,4 @@
-## MAS CORPORAL
+## MASA CORPORAL
 Programa para saber su masa corporal deacuerdo a su peso y altura
 # ANALISIS
 
