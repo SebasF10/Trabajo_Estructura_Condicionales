@@ -3,17 +3,17 @@
 
 # Input
 
-GASTO = int(input("Digite el gasto de agua en su vivienda: "))
-PRECIO = 10000
+M3 = int(input("Digite el gasto de agua en su vivienda: "))
+PRECIO_NORMAL= 10000
 # Processing
 
-if GASTO <= 50:
-    PRECIO = 10000
-elif GASTO < 200:
-    PRECIO = 2000+10000
+if M3 < 50:
+    PAGO = 0 + PRECIO_NORMAL
+elif M3 < 200:
+    PAGO = ((M3-50) *2000) +PRECIO_NORMAL
 else:
-    PRECIO = 3000+10000
+    PAGO = ((M3-50) *3000) +PRECIO_NORMAL
 
 # Output 
 
-print ("El dinero a pagar por el gasto del agua es: ",PRECIO,)
+print ("El dinero a pagar por el gasto del agua es: ",PAGO,)

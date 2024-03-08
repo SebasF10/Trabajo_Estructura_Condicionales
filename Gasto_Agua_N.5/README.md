@@ -4,17 +4,16 @@ Programa para saber cuanto hay que pagar deacuerdo a su gasto de agua en m3
 
 --Variables de entrada 
 
-GASTO = cuantos m3 gasto de agua
-PRECIO = 10000
+M3 = cuantos m3 gasto de agua
+PRECIO_NORMAL = 10000
 
 --variables de proceso
 
-GASTO = comparar y mirar cuantos m3 se gasto
-PRECIO = el precio al quer le va allegar la factura
+PAGO = se calcula lo que ahy que pagar y se almacena en esta variable
 
 --Variables de salida
 
-PRECIO = de acuerdo al proceso el lo que le llego la factura
+PAGO = se muestra cuanto debe ser el pago por el agua
 --
 # DISEÑO
 
