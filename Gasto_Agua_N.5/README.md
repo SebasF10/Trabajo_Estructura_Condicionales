@@ -9,7 +9,7 @@ PRECIO_NORMAL = 10000
 
 --variables de proceso
 
-PAGO = se calcula lo que ahy que pagar y se almacena en esta variable
+PAGO = se calcula lo que hay que pagar y se almacena en esta variable
 
 --Variables de salida
 

@@ -8,6 +8,6 @@ C = int(input("porfavor ingrese el tercer numero : "))
 # procesing
 
 if A + B == C:
-    print("La suma de los numeros",A,"+",B,"es igual al numero",C,)
+    print("La suma de los numeros",A,"+",B,"es igual al numero",C)
 else:
-    print("La suma de los numeros",A,"+",B,"no es igual al numero",C,)
+    print("La suma de los numeros",A,"+",B,"no es igual al numero",C)
